@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --cor1: hsl(215, 51%, 70%);
+    --cor2: hsl(178, 100%, 50%);
+    --cor3: hsl(217, 54%, 11%);
+    --cor4: hsl(216, 50%, 16%);
+    --cor5: hsl(215, 32%, 27%);
+
+    --font-principal: font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--cor3);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 350px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: var(--cor4);
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+
+a.destaque {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+a.destaque:hover {
+    color: var(--cor2);
+}
+
+a#link-imagem {
+    display: block;
+    position: absolute;
+    top: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+a#link-imagem:hover {
+    background-color: hsla(178, 100%, 50%, 0.26);
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.imagem1{
+    display: block;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425);
+}
+
+section {
+    margin-left: 25px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 p {
+    padding-right: 25px;
+    word-spacing: 3px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+div.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.box img {
+}
+
+div.box p {
+    padding-left: 5px ;
+}
+
+p {
+    font-size: 18px;
+}
+
+#moeda {
+    color: var(--cor2);
+}
+
+section#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    border-top: 1px solid rgba(255, 255, 255, 0.247) ;
+    margin-right: 25px;
+    padding-top: 15px;
+
+}
+
+section#footer img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+section#footer p {
+    word-spacing: 1px;
+}
+
+
+
+
+
+
